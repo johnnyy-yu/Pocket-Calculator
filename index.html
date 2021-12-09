@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pocket Calculator</title>
+    </head>
+    <body>
+        <div class="display"></div>
+        <div class="buttons">
+            <div class="row1">
+                <button class="clear" onclick="allClear()">AC</button>
+                <button class="backspace" onclick="backspace()">⌫</button>
+                <button class="number" onclick="togglePosNeg()">+/-</button>
+                <button class="operator" onclick="saveOperation('divide')">÷</button>
+            </div>
+            <div class="row2">
+                <button class="number" onclick="updateOperand(7)">7</button>
+                <button class="number" onclick="updateOperand(8)">8</button>
+                <button class="number" onclick="updateOperand(9)">9</button>
+                <button class="operator" onclick="saveOperation('multiply')">x</button>
+            </div>
+            <div class="row3">
+                <button class="number" onclick="updateOperand(4)">4</button>
+                <button class="number" onclick="updateOperand(5)">5</button>
+                <button class="number" onclick="updateOperand(6)">6</button>
+                <button class="operator" onclick="saveOperation('subtract')">-</button>
+            </div>
+            <div class="row4">
+                <button class="number" onclick="updateOperand(1)">1</button>
+                <button class="number" onclick="updateOperand(2)">2</button>
+                <button class="number" onclick="updateOperand(3)">3</button>
+                <button class="operator" onclick="saveOperation('add')">+</button>
+            </div>
+            <div class="row5">
+                <button class="number" onclick="updateOperand(0)">0</button>
+                <button class="number" onclick="addDecimalPoint()">.</button>
+                <button class="operator" onclick="equal()">=</button>
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
