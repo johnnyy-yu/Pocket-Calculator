@@ -2,7 +2,7 @@
 
 This is a simple pocket calculator that can do basic arithmetics.  It was built from HTML, CSS, and JavaScript.  
 
-To see a live demo: https://johnnyy-yu.github.io/Pocket-Calculator/
+To see a live demo: https://jylx-x.github.io/Pocket-Calculator/
 
 <h2>Features</h2>
   <ul>
@@ -13,9 +13,9 @@ To see a live demo: https://johnnyy-yu.github.io/Pocket-Calculator/
   </ul>  
   
 
-  ![Screen Shot 2021-12-08 at 3 55 09 PM](https://user-images.githubusercontent.com/93222500/145309870-70607560-9bf1-4424-940d-a9f6863f27ec.png)
+  ![127 0 0 1_5500_Pocket-Calculator_index html (1)](https://user-images.githubusercontent.com/93222500/152074550-4b3ea1dc-47be-4c69-aa5c-7f6d6ca79906.png)
 
 
 <h2>Acknowledgement</h2>
 
-This project was based on The Odin Project curriculum
+Based on The Odin Project curriculum
