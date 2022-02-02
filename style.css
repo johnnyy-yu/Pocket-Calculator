@@ -87,8 +87,9 @@ button:active {
     border-radius: 40px;
 }
 
-footer{
-    
+/* Footer */
+
+footer {
     display: flex;
     align-items: center;
     color: white;
